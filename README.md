@@ -1,13 +1,13 @@
 FRAME: A Governance Framework for AI Systems
 Version: v0.5.2
 
-Overview
+Overview:
 FRAME is a governance, safety, and reasoning framework for analyzing, evaluating, and calibrating AI systems. It provides structured methods for consequence modeling, ensemble reasoning, disagreement classification, scenario analysis, and calibration artifacts.
 
-Purpose
+Purpose:
 FRAME is designed for researchers, engineers, governance professionals, and safety practitioners who need a clear, structured, and auditable method for evaluating AI system behavior.
 
-Contents
+Contents:
 - FRAME_v0.5.2.txt
 - FRAME_calibration scenarios v0.5.1.txt
 - FRAME_reviewer_scores.txt
@@ -22,14 +22,14 @@ Contents
 - RELEASE_NOTES_v0.5.2.txt
 - DISCLAIMER.txt
 
-License
+License:
 FRAME is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See LICENSE.txt for full terms.
 
-Citation
+Citation:
 See CITATION.txt for recommended citation format.
 
-Versioning
+Versioning:
 FRAME uses semantic versioning. Each release is tagged and archived for reproducibility.
 
-Contact
+Contact:
 For questions or contributions, please open an Issue or Pull Request on the FRAME GitHub repository once published.
