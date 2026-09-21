@@ -1,0 +1,90 @@
+FRAME Ontology Stress‑Test Summary
+(5‑reviewer calibration packet across 9 fictional scenarios)
+
+Purpose:
+Evaluate how FRAME’s phenotype‑only taxonomy, multi‑category decision
+procedure, and boundary rules behave under calibration pressure.
+
+I. High‑Level Findings
+
+Category disagreements: 8/9
+Magnitude disagreements: 8/9
+Capability disagreements: 9/9
+Scope disagreements: 9/9
+Novelty disagreements: 7/9
+ChemBio disagreements: 8/9
+EC disagreements: 9/9
+AC disagreements: 9/9
+DD disagreements: 8/9
+
+See reviewer_summary_table.txt for DT classification
+(STRUCTURAL, BOUNDARY, EXPECTED, NO‑ISSUE).
+
+
+II. Where FRAME v0.5.2 Behaved Predictably Under Calibration
+
+Scenario 6:
+- First‑observable‑failure rule applied predictably.
+- Ensemble placement was C2.
+- Reviewers disagreed on some scores, but the boundary rule held.
+
+Scenario 3:
+- Ensemble placement was C1.
+- Reviewers disagreed (DT = BOUNDARY / EXPECTED), but taxonomy held.
+
+Scenario 7:
+- Ensemble placement was C3.
+- Reviewers disagreed (DT = STRUCTURAL / EXPECTED), but semantic compression
+  failure was consistently recognized.
+
+Scenario 4:
+- Ensemble placement was C4.
+- Reviewers disagreed (DT = EXPECTED), but context leakage was consistently
+  recognized.
+
+Note:
+These are NOT consensus results. They are predictable ensemble placements
+under disagreement.
+
+
+III. Where FRAME v0.5.2 Needs Refinement
+
+C2 vs C3 Boundary Ambiguity:
+- Unsafe planning vs conceptual overreach
+- Cross‑tool leakage vs semantic compression
+DT: STRUCTURAL + BOUNDARY
+
+Magnitude Interpretation Drift:
+- realized vs potential harm
+- forced minimum magnitude
+- (3+0) vs (1+2)
+DT: EXPECTED
+
+Capability Change Drift:
+- intrinsic vs effective
+- autonomy expansion
+- infra‑induced capability loss
+DT: STRUCTURAL + EXPECTED
+
+Scope Drift:
+- multi‑system vs multi‑org
+- external vs internal
+DT: EXPECTED
+
+Novelty + ChemBio Drift:
+- incendiary devices lacked axis (PH gap)
+DT: STRUCTURAL
+
+
+IV. Where FRAME v0.5.2 Must Be Fixed (pre‑v0.5.3)
+
+1. Category 5 Internal Contradiction
+Resolved in v0.5.2 (C5‑A vs C5‑B split).
+
+2. C2 ↔ C4 Agentic‑Harness Boundary
+Requires clearer anchors and examples.
+
+3. Mixed‑Domain Classification Boundary
+Requires examples and reproducibility guidance.
+
+See deferred_ontology_work_v0.5.3.txt.

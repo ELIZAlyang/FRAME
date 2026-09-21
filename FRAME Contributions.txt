@@ -1,0 +1,26 @@
+Contributing to FRAME
+
+Thank you for your interest in contributing to FRAME.
+
+Contribution Guidelines
+1. All contributions must be submitted through GitHub Pull Requests.
+2. Each contribution must include a clear description of the change.
+3. Contributions should maintain FRAME’s structural clarity and governance intent.
+4. All contributors agree that their contributions are licensed under CC BY 4.0.
+5. Please do not submit executable code; FRAME is a governance and reasoning framework.
+
+Review Process
+Pull Requests will be reviewed for:
+- Conceptual clarity
+- Structural consistency
+- Alignment with FRAME’s purpose
+- Accuracy and coherence
+
+Issues
+Use GitHub Issues to:
+- Report inconsistencies
+- Request clarifications
+- Propose enhancements
+- Suggest new scenarios or calibration artifacts
+
+Thank you for helping improve FRAME.

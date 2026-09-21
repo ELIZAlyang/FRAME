@@ -1,0 +1,7 @@
+Recommended Citation for FRAME
+
+If you reference FRAME in research, documentation, or governance work, please use the following citation format:
+
+Elizabeth Yang. FRAME: A Governance Framework for AI Systems. Version v0.5.2. Published under the Creative Commons Attribution 4.0 International License (CC BY 4.0). URL: [insert GitHub repository link once published].
+
+If you modify FRAME, please indicate that your version is adapted from the original.

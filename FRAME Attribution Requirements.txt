@@ -1,0 +1,25 @@
+FRAME Attribution Requirements (CC BY 4.0)
+
+If you use, share, modify, or build upon FRAME, you must provide attribution as required by the Creative Commons Attribution 4.0 International License.
+
+Required attribution elements:
+
+1. Creator
+   Elizabeth Yang 'Ely' (FRAME original author)
+
+2. Title
+   FRAME: A Governance Framework for AI Systems
+
+3. License
+   Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+4. Link to License
+   https://creativecommons.org/licenses/by/4.0/
+
+5. Indication of Modifications
+   If you modify FRAME, you must clearly indicate that changes were made.
+
+6. Link to Source (if applicable)
+   Provide a link to the official FRAME GitHub repository once published.
+
+This file is provided to make attribution simple and unambiguous for downstream users.

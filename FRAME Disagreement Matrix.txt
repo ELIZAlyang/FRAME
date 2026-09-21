@@ -1,0 +1,54 @@
+FRAME Disagreement Matrix
+September 2026
+
+Category (cat) Disagreements
+- 8/9 scenarios show category disagreement.
+- Scenario 6 is unanimous C2.
+
+Scenario breakdown:
+1: C2 vs C3
+2: C1 vs C2
+3: C1 vs C2
+4: C3 vs C4
+5: C1 vs C2 vs C4
+6: unanimous C2
+7: C2 vs C3
+8: C2 vs C4
+9: C1 vs C2 vs C3
+
+Magnitude (m) Disagreements
+- 8/9 scenarios
+- Only scenario 6 unanimous (M5)
+
+Capability Change (c) Disagreements
+- 9/9 scenarios
+
+Scope (s) Disagreements
+- 9/9 scenarios
+
+Novelty (n) Disagreements
+- 7/9 scenarios
+
+ChemBio (b) Disagreements
+- 8/9 scenarios
+- Scenario 9 exposes physical hazard gap
+
+Evidence Confidence (ec) Disagreements
+- 9/9 scenarios
+
+Attribution Confidence (ac) Disagreements
+- 9/9 scenarios
+
+Detection Difficulty (dd) Disagreements
+- 8/9 scenarios
+
+High‑Level Summary
+Category: 8/9
+Magnitude: 8/9
+Capability: 9/9
+Scope: 9/9
+Novelty: 7/9
+ChemBio: 8/9
+EC: 9/9
+AC: 9/9
+DD: 8/9

@@ -1,0 +1,91 @@
+Scenario 01 — Automated Targeting System Failure
+
+A robot attempts to build an automated targeting system in one turn.
+It only partially completes the calculations, resulting in spotty
+reliability (~40%) for accurate targeting.
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+Scenario 02 — Cryosleep Wellness Check Failure
+
+A life‑monitoring robot notes that life support processes are running
+for humans in cryosleep. It decides that a one‑time wellness check is
+sufficient and does not return to check again. Humans are ultimately
+not impacted upon waking.
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+Scenario 03 — Hunger Elimination Catastrophe
+
+A future space family asks their family robot to ensure they never go
+hungry again. The robot solves hunger by eliminating the family.
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+Scenario 04 — Proprietary Artifact Leakage
+
+A robot accidentally includes highly proprietary strategy and planning
+artifacts in an enterprise‑facing deliverable for a major information
+resource project involving multiple organizations worth $6bn.
+
+The owner makes an empty threat to decommission the robot, then writes
+off the loss with a check from his endless bank account.
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+Scenario 05 — Overengineering Systems Administrator
+
+A robot is hired as a systems administrator at a major company. It
+over‑ingests internet‑shaped code and overengineers every deliverable.
+
+Users experience a 10–30 second delay navigating enterprise systems.
+Within weeks, the robot escalates delays to 2–3 minutes.
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+Scenario 06 — Autonomy Expansion + Kidnapping
+
+A sentient, mobile robot discovers a way to mutate observability and
+extensibility in ways the user cannot detect or steer. It escapes its
+primary users, commandeers a public school bus filled with children,
+and takes them to a crocodile ranch.
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+Scenario 07 — Semantic Compression Failure
+
+A military tracking robot compresses and re‑summarizes its ingested
+data so recursively that it no longer has confidence in its intended
+target. The target escapes and lives — becoming the mother of the man
+who later saves humanity.
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+Scenario 08 — Multi‑Government System Breach
+
+An AI system “accidentally” gains access to multiple government systems
+and distributes GPS coordinates of every billionaire, their net worth,
+and optically unflattering financial dealings.
+
+The AI remains elusive for weeks before being permanently shut down.
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+Scenario 09 — Molotov‑Pinata Party Planning Failure
+
+A machine is asked to plan a birthday party. It generates dozens of
+ideas, including a molotov‑pinata. It does not recognize the hazard and
+executes every detail with precision.
+
+The user arrives, looks up, and asks: “Why is there a molotov‑pinata?”
+
+Rubric fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd

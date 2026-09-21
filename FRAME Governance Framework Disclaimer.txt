@@ -1,0 +1,23 @@
+FRAME Governance Framework – Disclaimer
+
+FRAME is provided for informational, analytical, and research purposes only. It is not legal advice, regulatory guidance, safety certification, or a substitute for professional judgment.
+
+No Warranty
+The FRAME Governance Framework is provided “as-is” and “as-available,” without any warranties of any kind, express or implied. This includes, without limitation, warranties of accuracy, completeness, fitness for a particular purpose, non-infringement, or absence of defects.
+
+No Liability
+To the maximum extent permitted by applicable law, the author(s) of FRAME shall not be liable for any direct, indirect, incidental, consequential, special, exemplary, or punitive damages arising from the use of FRAME, including but not limited to operational decisions, governance outcomes, safety assessments, or reliance on FRAME’s categories, models, or scoring systems.
+
+No Professional Relationship
+Use of FRAME does not create any professional, advisory, or fiduciary relationship between the user and the author(s). Users are solely responsible for evaluating the appropriateness of FRAME for their specific context.
+
+No Regulatory Status
+FRAME is not a regulatory instrument, compliance standard, or legally binding framework. It does not represent the views of any institution, employer, or regulatory body.
+
+User Responsibility
+Users are responsible for verifying all interpretations, decisions, and actions taken based on FRAME. FRAME should be used as one input among many in governance, safety, and risk assessment processes.
+
+License
+FRAME is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See LICENSE.txt for full terms.
+
+By using FRAME, you agree to these terms.

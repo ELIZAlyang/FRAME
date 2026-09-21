@@ -1,0 +1,17 @@
+FRAME Release Notes
+Version: v0.5.2
+Release Date: 2026-09-21
+
+Summary
+FRAME v0.5.2 is a calibrated version of the FRAME governance framework. This release includes finalized core documents, calibrated artifacts, and an initial consequence model.
+
+Changes in v0.5.2
+- Finalized consequence model and ensemble reasoning documents.
+- Completed disagreement taxonomy and scenario mapping.
+- Added calibration artifacts and supporting notes.
+
+Notes
+This version is intended as the first public release of FRAME. Future versions will expand scenario coverage, add additional calibration artifacts, and refine ensemble classifications.
+
+License
+Released under CC BY 4.0.

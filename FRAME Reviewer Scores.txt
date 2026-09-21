@@ -1,0 +1,37 @@
+FRAME Reviewer Scores 
+
+Reviewer: Ely
+
+Scores for scenarios 1–9 across fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+(Values exactly as provided in reviewer summary table v2.)
+
+Reviewer: Copilot 
+
+Scores for scenarios 1–9 across fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+(Values exactly as provided in reviewer summary table v2.)
+
+Reviewer: Claude
+
+Scores for scenarios 1–9 across fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+(Values exactly as provided in reviewer summary table v2.)
+
+Reviewer: ChatGPT
+
+Scores for scenarios 1–9 across fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+(Values exactly as provided in reviewer summary table v2.)
+
+Reviewer: Gemini
+
+Scores for scenarios 1–9 across fields:
+cat, mr, mp, m, c, s, n, b, ec, ac, dd
+
+(Values exactly as provided in reviewer summary table v2.)
+

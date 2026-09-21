@@ -1,0 +1,13 @@
+FRAME Ensemble Scorecard (Index Only)
+
+Aggregation Method:
+- Category: majority vote; if no majority → multi‑category listing with vote counts
+- mr/mp/m/c/s: median + min/max
+- n/b: mode + range
+- ec: minimum + min/max
+- ac/dd: median + min/max
+
+Note:
+This file serves only as a compact index.
+For full raw scores, centers, spreads, and DT classification:
+→ See reviewer_summary_table.txt

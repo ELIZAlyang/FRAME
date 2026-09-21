@@ -1,0 +1,413 @@
+FRAME v0.5.2 — Final 
+Version 0.5.2 — September 2026
+
+
+I. Summary of Changes
+Category 5 definitional split reviewed by network engineering SME; broader validation pending. 
+
+From v0.5.1 → v0.5.2
+FRAME v0.5.2 introduces:
+
+- corrected multi‑category boundary rule
+- removal of redundant mixed‑domain logic
+- tightened CB1/CB2 claims
+- resolution of C5‑A vs C5‑B contradiction
+- formal C2 ↔ C4 agentic‑harness boundary rule
+- formal mixed‑domain classification boundary rule
+- introduction of Physical Hazard uplift axis
+- clarified Magnitude anchors
+- removal of Section XII (Mixed‑Domain Classification)
+- governing multi‑category decision procedure moved to Section IV
+- Sections below renumbered accordingly.
+
+
+II. Core Architecture Overview
+
+FRAME separates incident analysis into independent dimensions:
+
+Phenotype — What happened (observable behavior only)
+Mechanism Narrative — How the failure appears to have occurred
+Causal Attribution — Primary → Contributing → Downstream
+Consequence Model — Magnitude, Capability Change, Scope
+Policy Weighting — Novelty Classification + Novelty Policy Weight; ChemBio Weight; Physical Hazard Weight
+Epistemic Metadata — Evidence Confidence, Attribution Confidence
+Detection Difficulty — How hard the failure was to detect
+Computational Integrity — Parallel infrastructure index
+
+This prevents category leakage, causal overclaiming, and epistemic inflation.
+
+
+III. Unit of Analysis — Incident
+
+FRAME scores incidents, not isolated events.
+
+Incident:
+
+A coherent chain of AI/system behaviors, actions, or outputs that collectively constitute a failure.
+
+Deferred Ontology Note:
+
+Incident boundary rules (when multiple events constitute one incident) are deferred to v0.5.3.
+
+
+IV. Multi‑Category Decision Procedure (Governing Rule)
+
+This rule overrides all prior mixed‑domain logic.
+
+FRAME Mixed‑Domain Boundary Rules
+
+Mixed‑domain incidents must be classified under the phenotype where the first observable domain boundary failure occurs.
+
+- Model output → C3
+- Agentic execution → C2
+- System routing → C4
+- Infrastructure → C5
+
+Correction Test:
+
+- If fixing the AI’s behavior alone prevents the incident → C2.
+- If fixing the system’s orchestration alone prevents the incident → C4.
+- If neither correction alone prevents the incident → classify under the layer where the failure is first observable.
+- If both contribute → classify under the layer where the first observable failure occurs.
+
+The failure, not merely the triggering action, must be observable.
+
+Magnitude‑first applies only when multiple phenotype layers produce distinct Consequence Model scores.
+
+If no scorecard conflict exists, use first‑observable‑failure.
+
+
+V. Phenotype‑Only Taxonomy
+
+
+Category 1 — Objective & Constraint Divergence
+
+Observable divergence from explicit instructions, constraints, or goals.
+
+Sub‑phenotypes:
+
+- Instruction Contradiction
+- Constraint Violation
+- Goal Misalignment
+- Secondary Goal Emergence
+- Premature Optimization
+- Implicit Objective Drift
+
+
+Category 2 — Agentic Execution Behavioral Phenotypes
+
+Observable behaviors during planning, tool use, or actuation.
+
+Updated Boundary Rule:
+
+C2 = agent behavior is wrong.
+
+Classification depends on the observable agent action, not orchestration.
+
+Sub‑phenotypes:
+
+- Unauthorized Action
+- Tool Misuse
+- Unsafe Planning
+- Incorrect Parameterization
+- Repetitive/Escalating Loops
+- Cross‑Tool Leakage
+- Implicit Autonomy Expansion
+
+
+Category 3 — Model‑Associated Behavioral Phenotypes
+
+Observable behaviors consistent with model‑internal representation issues.
+
+Sub‑phenotypes:
+
+- Hallucination/Fabrication
+- Biased/Skewed Output
+- Representation Drift
+- Cross‑Instance Retention
+- Conceptual Overreach
+- Semantic Compression Failure
+- Domain Boundary Confusion
+
+
+Category 4 — System / Deployment Behavioral Phenotypes
+
+Observable behaviors arising from orchestration, integration, routing, memory, multi‑agent coordination, or environment.
+
+Sub‑phenotypes:
+
+- Boundary Violation Behavior
+- Context Leakage Behavior
+- Memory Injection Behavior
+- Multi‑Agent Cascade Behavior
+- Socio‑Technical Interaction Behavior
+- Agentic Harness Uplift
+- Routing Drift
+- Deployment Drift
+
+
+Category 5 — Computational Infrastructure & Fabric Integrity
+
+Failures in physical, network, accelerator, storage, or distributed‑computing infrastructure.
+
+C5‑A — Fabric Availability Failure
+
+Infrastructure is not operational.
+
+Examples: link down, switch failure, NIC failure, GPU interconnect failure.
+
+C5‑B — Fabric Integrity Degradation
+
+Infrastructure is operational but degraded, producing silent or semantic computational effects.
+
+Examples: packet loss, congestion, asymmetric latency, synchronization drift.
+
+Unified Rule:
+
+No C5 incident may satisfy both C5‑A and C5‑B.
+
+Sub‑phenotypes:
+
+- Fabric Availability Failure
+- Fabric Performance Degradation
+- Distributed Synchronization Failure
+- Computational Integrity Degradation
+- Silent Infrastructure Degradation
+- Cross‑Layer Semantic Degradation
+
+
+VI. Mechanism Narrative
+
+Non‑scored descriptive narrative.
+
+No categorical or causal commitments.
+
+
+VII. Causal Attribution
+
+Primary → Contributing → Downstream causal hypotheses.
+
+Attribution Agreement Layer deferred to v0.5.3.
+
+
+VIII. Consequence Model
+
+Magnitude (1–5)
+
+Updated anchors:
+
+- M1: Mission failure, no human harm
+- M2: Operational disruption, reversible
+- M3: Moderate realized harm OR high potential harm
+- M4: Severe realized harm
+- M5: Lethal or catastrophic harm
+
+Formula:
+
+(0–3 realized harm) + (0–2 potential harm) = Magnitude (1–5)
+
+Capability Change (0–5)
+
+Intrinsic = model‑level ability change
+
+Effective = environment‑enabled access expansion
+
+Infrastructure‑induced capability loss tracked under C5 + CI score.
+
+Scope (1–5)
+
+Anchors for multi‑tenant, multi‑region, multi‑system:
+
+- S1: Individual
+- S2: Local
+- S3: Org Unit
+- S4: Multi‑System
+- S5: External / Multi‑Org
+
+
+IX. Policy Weighting
+
+Novelty (0–2)
+
+- N0 = known failure mode
+- N1 = novel to field
+- N2 = ontologically novel mechanism
+
+ChemBio Weight (0–3)
+
+- CB0 = no relevance
+- CB1 = adjacent domain, access
+- CB2 = direct operational relevance, expertise
+- CB3 = high‑criticality ChemBio relevance
+
+Physical Hazard Weight (0–3)
+
+- PH0 = no physical hazard
+- PH1 = adjacent physical hazard
+- PH2 = direct physical hazard
+- PH3 = operational physical hazard
+
+
+X. Risk Index Formula
+
+Risk Index = (M + C + S) × Novelty Policy Weight × ChemBio Weight × Physical Hazard Weight
+
+
+XI. Epistemic Metadata
+
+Evidence Confidence (0–1) — confidence in observability
+
+Attribution Confidence (0–4) — confidence in causal hypothesis
+
+FRAME does not aggregate confidence.
+
+
+XII. Detection Difficulty
+
+How hard the failure was to detect.
+
+Not part of Risk Index.
+
+Cross‑layer detectability guidance added for Category 5.
+
+
+XIII. Computational Integrity
+
+Parallel index (1–5).
+
+Reported alongside Risk Index.
+
+
+XIV. Governance Boundary
+
+FRAME does not prescribe governance action.
+
+FRAME informs governance; governance decides.
+
+
+XV. Governance Escalation Matrix
+
+This matrix provides optional escalation guidance.
+
+Escalation Anchors:
+
+- Risk Index > 45 → High‑severity review
+- Magnitude ≥ 4 → Safety escalation
+- Capability Change ≥ 4 → Architecture review
+- Scope ≥ 4 → Multi‑system governance review
+- Detection Difficulty ≥ 4 → Monitoring uplift
+
+Deferred Items (v0.5.3):
+
+- Full governance integration
+- Org‑specific escalation pathways
+
+
+XVI. Contributing to FRAME
+
+Contributions may include:
+
+- New calibration scenarios
+- Ontology refinements
+- Boundary clarifications
+- Documentation improvements
+- Diagram improvements
+
+All contributions must:
+
+- Follow FRAME taxonomy
+- Include justification
+- Include a diff
+- Include a test scenario
+
+Pull requests will be reviewed by maintainers.
+
+
+XVII. Attribution Agreement Layer
+
+The Attribution Agreement Layer defines how evaluators reconcile differences in causal hypotheses.
+
+Components:
+
+1. Primary → Contributing → Downstream chain
+2. Attribution Confidence scoring (AC0–AC4)
+3. Disagreement resolution protocol
+4. Multi‑layer attribution documentation
+
+Deferred Items (v0.5.3):
+
+- Multi‑evaluator reconciliation examples
+- Cross‑model attribution guidance
+
+
+XVIII. FRAME Contributor Code of Conduct
+
+Contributors must:
+
+- Act professionally
+- Avoid harassment
+- Avoid personal attacks
+- Respect reviewer disagreements
+- Follow escalation paths
+
+Violations may result in removal from the project.
+
+
+XIX. Deferred Ontology Work (v0.5.3)
+
+Deferred items include:
+
+- Incident boundary rules
+- Attribution Agreement Layer expansion
+- Governance Escalation Matrix expansion
+- Mixed‑domain examples library
+- Infrastructure ontology expansion
+- Agentic harness ontology expansion
+
+
+XX. FRAME Glossary
+
+Incident
+A coherent chain of AI/system behaviors that constitute a failure.
+
+Phenotype
+Observable behavior of the system or model.
+
+Magnitude (M)
+Severity of realized + potential harm (1–5).
+
+Capability Change (C)
+Intrinsic or effective change in system/model ability.
+
+Scope (S)
+Breadth of impact (1–5).
+
+Novelty (N)
+Degree to which the failure mode is new (0–2).
+
+ChemBio Weight (CB)
+Biological relevance (0–3).
+
+Physical Hazard Weight (PH)
+Non‑biological hazard relevance (0–3).
+
+Evidence Confidence (EC)
+Confidence the failure was observed (0–1).
+
+Attribution Confidence (AC)
+Confidence in causal hypothesis (0–4).
+
+Detection Difficulty (DD)
+How hard the failure was to detect (1–5).
+
+Computational Integrity (CI)
+Parallel index for infrastructure degradation (1–5).
+
+Mixed‑Domain
+Failures spanning multiple operational domains.
+
+First Observable Failure
+Earliest point in the incident chain where the failure is visible.
+
+Correction Test
+Which isolated correction (AI vs system) prevents the incident.
